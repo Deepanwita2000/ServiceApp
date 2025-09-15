@@ -1,0 +1,9 @@
+.DS_Store
+db.sqlite3
+bookings/migrations/
+accountapp/migrations/
+catagory/migrations/
+provider/migrations/
+services/migrations/
+__pycache__/
+*.pyc
