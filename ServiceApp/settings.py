@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-uik(p4jr0m*3kj^6g_ur6s!o@m6!q=5c*xnls(xs*)uye+4j)^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['service.deepanwita.fun']
 
 
 # Application definition
@@ -182,3 +183,4 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated'
     ]
 }
+
